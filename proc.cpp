@@ -385,7 +385,7 @@ BOOL HardwareInfo()
 
 void DisplayHelp()
 {
-		cout << "Developed by Marvellous Infosystems" << endl;
+		
 		cout << "ps : Display all information of process" << endl;
 		cout << "ps -t : Display all information about threads" << endl;
 		cout << "ps -d :Display all information about DLL" << endl;
@@ -412,7 +412,7 @@ int main(int argc, char* argv[])
 
 				strcpy_s(str, _countof(str), "");	
 
-				cout << endl << "Marvellous ProcMon: > ";        
+				cout << endl << "ProcMon: > ";        
 
 				fgets(str, 80, stdin); 
 		
@@ -489,7 +489,7 @@ int main(int argc, char* argv[])
 
 						else if(_stricmp(command[0], "exit") == 0)
 						{
-								cout << endl << "Terminating Marvellous ProcMon" << endl;
+								cout << endl << "Terminating ProcMon" << endl;
 								break;
 						}
 
